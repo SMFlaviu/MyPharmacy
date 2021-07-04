@@ -1,0 +1,13 @@
+# ** MY PHARMACY ** 
+
+## ***Project context:*** 
+#### **    The project consists into an application called "My Pharmacy" where the users can communicate with the pharmacies in order to take their prescriptions and drugs in a simple and efficient manner.**
+
+## ***Project purpose:***
+#### **    The purpose of the development of the application is to facilitate the interaction between patients and pharmacies, to keep track of the route of patients' medicines and to notify them of the taking of the drugs and their exact dose at the times set by the doctor.**
+
+## ***Used tehnologies:***
+#### **    Crawler, MongoDB, REST API, Android App, RXJava, ViewModel, LiveData, Retrofit**
+
+## ***Conclusion:***
+#### **    The idea of the application is to help the patients with the choice of the drug according to the condition they have and with its administration, everything being supervised by pharmacists. The application provides a unique experience that tries to simulate the interaction between a pharmacist and a patient.**
