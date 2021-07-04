@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="24dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="24dp"
+    android:layout_marginBottom="8dp"
+    android:background="@color/light_gray"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/drug_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drug Name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farmaceutical form: " />
+
+        <TextView
+            android:id="@+id/drug_formafarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SOL INJ." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Concentration: " />
+
+        <TextView
+            android:id="@+id/drug_concentration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500mg/ml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T. Act.: " />
+
+        <TextView
+            android:id="@+id/drug_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ANTIBIOTIC" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prescription: " />
+
+        <TextView
+            android:id="@+id/drug_prescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PR" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volum: " />
+
+        <TextView
+            android:id="@+id/drug_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PR" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valability: " />
+
+        <TextView
+            android:id="@+id/drug_valability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 ani" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/drug_atc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="L01BC02"
+        android:textColor="@color/teal_200"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

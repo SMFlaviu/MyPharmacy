@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.pharmacies.PharmaciesFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pharmaciesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?android:attr/actionBarSize" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/add_pharmacy"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_search"
+        app:cb_color="@color/teal_200"
+        app:cb_pressedRingWidth="8dip"
+        app:layout_constraintBottom_toBottomOf="@+id/pharmaciesRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

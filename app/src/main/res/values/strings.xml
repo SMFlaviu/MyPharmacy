@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MyPharmacy</string>
+    <string name="title_pharmacies">Pharmacies</string>
+    <string name="title_drugs">Drugs</string>
+    <string name="title_drugsrequests">Drugs Requests</string>
+    <string name="title_inventory">Inventory</string>
+    <string name="title_activity_login">MyPharmacy</string>
+    <string name="title_activity_create_pharmacy">Create Pharmacy</string>
+    <string name="prompt_firstName">First Name</string>
+    <string name="prompt_lastName">Last Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_age">Age</string>
+    <string name="prompt_address">Address</string>
+    <string name="prompt_pharmacy_name">Pharmacy Name</string>
+    <string name="prompt_pharmacy_location">Location</string>
+    <string name="prompt_drug_name">Drug Name</string>
+    <string name="prompt_drug_info">Drug Information</string>
+    <string name="prescription_based">Prescription based</string>
+    <string name="compensated_drug">Compensated drug</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_create">Create</string>
+    <string name="action_discard">Discard</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="submitted_by">Submitted by</string>
+    <string name="prescription">Prescription: </string>
+    <string name="compensated">Compensated: </string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="register_missing_info">All fields must be completed!</string>
+    <string name="register_success">Register successful!</string>
+    <string name="register_failed">Register failed!</string>
+    <string-array name="user_type_array">
+        <item>Pacient</item>
+        <item>Pharmacist</item>
+    </string-array>
+</resources>
